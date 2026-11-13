@@ -3,8 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ioBroker](https://img.shields.io/badge/ioBroker-JavaScript-green.svg)](https://www.iobroker.net/)
 
-[🇩🇪 Deutsch](#deutsch) | [🇬🇧 English](#english)
-
+[🇩🇪 Deutsch](#deutsch) | [🇬🇧 Switch to English Version](README_EN.md)
 ---
 
 <a name="deutsch"></a>
