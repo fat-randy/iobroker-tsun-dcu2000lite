@@ -11,7 +11,7 @@
 ## 🇩🇪 Beschreibung
 Ein robustes JavaScript für **ioBroker**, das TSUN-Wechselrichter und DCU2000Lite Batteriespeicher über den offiziellen Cloud-Account ausliest. 
 
-> **Wichtiger Hinweis:** Das Skript funktioniert über das **Endbenutzer- bzw. Installateur-Cloud-Login** (nutzt im Hintergrund die OAuth2-Authentifizierung mit `identity_type: 2` und `system: "TSUN"`).
+> **Wichtiger Hinweis:** Das Skript funktioniert aktuell nur über das **Endbenutzer-Cloud-Login** (nutzt im Hintergrund die OAuth2-Authentifizierung mit `identity_type: 2` und `system: "TSUN"`).
 
 Das Skript ermittelt die Stations-ID automatisch, filtert die physischen Speicher-Einheiten (`deviceType === 3`) heraus und legt eine strukturierte, zweisprachige (DE/EN) Datenpunkt-Hierarchie unter `0_userdata.0.tsun.` an.
 
