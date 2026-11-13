@@ -10,7 +10,7 @@
 ## 🇬🇧 Description
 A robust JavaScript for **ioBroker** to poll TSUN inverters and DCU2000Lite battery storage systems using the official cloud account.
 
-> **Important Note:** This script relies on standard cloud / installer login credentials (using OAuth2 authentication with `identity_type: 2` and `system: "TSUN"`).
+> **Important Note:** This script relies on enduser cloud login credentials (using OAuth2 authentication with `identity_type: 2` and `system: "TSUN"`).
 
 The script automatically resolves the station ID, filters out physical storage units (`deviceType === 3`), and creates a structured, bilingual (DE/EN) data point hierarchy under `0_userdata.0.tsun.`.
 
